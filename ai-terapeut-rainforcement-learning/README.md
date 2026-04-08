@@ -45,6 +45,10 @@ Skript vytrénuje RL agenta, vyhodnotí obě politiky na stejném setupu a vytvo
 - `ai-terapeut-rainforcement-learning/rulebased_predictions.csv`
 - `ai-terapeut-rainforcement-learning/rl_predictions.csv`
 
+Pro vysvětlení a vizualizace RL procesu je přidaný notebook:
+
+- `ai-terapeut-rainforcement-learning/rehab_explainer.ipynb`
+
 ## CSV schema
 
 Oba CSV soubory mají stejný formát (1 řádek = 1 den v epizodě):
