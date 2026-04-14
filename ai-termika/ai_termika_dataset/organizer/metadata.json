@@ -1,0 +1,22 @@
+{
+  "generator": "AI Termika Dataset Generator v1.0",
+  "competition": "Česká AI Olympiáda 2026",
+  "seed": 42,
+  "alpha_true": 0.08,
+  "alpha_approx": 0.075533,
+  "alpha_shift_actual": -5.58,
+  "n_fourier_terms": 50,
+  "n_train": 100,
+  "n_boundary_per_side": 12,
+  "n_initial": 12,
+  "n_test": 600,
+  "noise_std": {
+    "train": 0.08,
+    "boundary": 0.02,
+    "initial": 0.03
+  },
+  "initial_condition": "sin(πx) + 0.5·sin(3πx) + 0.3·sin(2πx)",
+  "boundary_left": "0.2·exp(-2t)",
+  "boundary_right": "0.15·sin(2πt)·exp(-3t)",
+  "equation": "∂u/∂t = α · ∂²u/∂x²"
+}
